@@ -1,0 +1,16 @@
+{
+  "name": "magellanproj911",
+  "version": "1.0.0",
+  "description": "magellan proj v2 because the first 1 has selenium server error",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Trini",
+  "license": "ISC",
+  "devDependencies": {
+    "testarmada-magellan": "^10.1.0",
+    "testarmada-magellan-local-executor": "^2.0.0",
+    "testarmada-magellan-nightwatch-plugin": "^7.0.0"
+  }
+}
