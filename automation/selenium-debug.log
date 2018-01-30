@@ -1,0 +1,51 @@
+17:50:27.448 INFO - Selenium build info: version: '3.5.3', revision: 'a88d25fe6b'
+17:50:27.449 INFO - Launching a standalone Selenium Server
+2018-01-24 17:50:27.468:INFO::main: Logging initialized @247ms to org.seleniumhq.jetty9.util.log.StdErrLog
+17:50:27.521 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:50:27.550 INFO - Driver provider class org.openqa.selenium.safari.SafariDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN10
+17:50:27.575 INFO - Using the passthrough mode handler
+2018-01-24 17:50:27.599:INFO:osjs.Server:main: jetty-9.4.5.v20170502
+2018-01-24 17:50:27.623:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@10366b4{/,null,STARTING} has uncovered http methods for path: /
+2018-01-24 17:50:27.627:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@10366b4{/,null,AVAILABLE}
+2018-01-24 17:50:27.801:INFO:osjs.AbstractConnector:main: Started ServerConnector@aac163{HTTP/1.1,[http/1.1]}{0.0.0.0:12006}
+2018-01-24 17:50:27.801:INFO:osjs.Server:main: Started @581ms
+17:50:27.802 INFO - Selenium Server is up and running
+2018-01-24 17:50:28.067:INFO:osjshC.ROOT:qtp20332467-9: org.openqa.selenium.remote.server.WebDriverServlet-1fa1d9b: Initialising WebDriverServlet
+17:50:28.109 INFO - Binding default provider to: org.openqa.selenium.chrome.ChromeDriverService
+17:50:28.109 INFO - Found handler: org.openqa.selenium.remote.server.BeginSession@9d336
+17:50:28.113 INFO - /session: Executing POST on /session (handler: BeginSession)
+17:50:28.161 INFO - Capabilities are: Capabilities {acceptSslCerts=true, phantomjs.binary.path=./bin/phantomjs-2.1.1-windo..., name=OKR Smoke Test2, browserName=chrome, javascriptEnabled=true, phantomjs.cli.args=[--ignore-ssl-errors=true], platformName=ANY, platform=ANY, }
+17:50:28.162 INFO - Capabilities {acceptSslCerts=true, phantomjs.binary.path=./bin/phantomjs-2.1.1-windo..., name=OKR Smoke Test2, browserName=chrome, javascriptEnabled=true, phantomjs.cli.args=[--ignore-ssl-errors=true], platformName=ANY, platform=ANY, } matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+17:50:28.163 INFO - Capabilities {acceptSslCerts=true, phantomjs.binary.path=./bin/phantomjs-2.1.1-windo..., name=OKR Smoke Test2, browserName=chrome, javascriptEnabled=true, phantomjs.cli.args=[--ignore-ssl-errors=true], platformName=ANY, platform=ANY, } matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 10225
+Only local connections are allowed.
+17:50:31.144 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@19fc7ed
+17:50:31.144 INFO - Handler thread for session 9d597c338b82a2464b1611cc56a938d0 (chrome): Executing POST on /session/9d597c338b82a2464b1611cc56a938d0/url (handler: ServicedSession)
+17:50:31.147 INFO - To upstream: {"url":"http://172.22.254.133:9022/utnet/main"}
+17:50:34.183 INFO - To downstream: {"sessionId":"9d597c338b82a2464b1611cc56a938d0","status":0,"value":null}
+17:50:34.196 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@19fc7ed
+17:50:34.196 INFO - Handler thread for session 9d597c338b82a2464b1611cc56a938d0 (chrome): Executing POST on /session/9d597c338b82a2464b1611cc56a938d0/elements (handler: ServicedSession)
+17:50:34.198 INFO - To upstream: {"using":"css selector","value":"body"}
+17:50:34.226 INFO - To downstream: {"sessionId":"9d597c338b82a2464b1611cc56a938d0","status":0,"value":[{"ELEMENT":"0.49251995850309616-1"}]}
+17:50:34.229 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@19fc7ed
+17:50:34.230 INFO - Handler thread for session 9d597c338b82a2464b1611cc56a938d0 (chrome): Executing GET on /session/9d597c338b82a2464b1611cc56a938d0/element/0.49251995850309616-1/displayed (handler: ServicedSession)
+17:50:34.260 INFO - To downstream: {"sessionId":"9d597c338b82a2464b1611cc56a938d0","status":0,"value":true}
+17:50:37.273 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@19fc7ed
+17:50:37.274 INFO - Handler thread for session 9d597c338b82a2464b1611cc56a938d0 (chrome): Executing POST on /session/9d597c338b82a2464b1611cc56a938d0/element (handler: ServicedSession)
+17:50:37.277 INFO - To upstream: {"using":"css selector","value":"input[name=inputUsername]"}
+17:50:37.281 INFO - To downstream: {"sessionId":"9d597c338b82a2464b1611cc56a938d0","status":13,"value":{"message":"unknown error: missing or invalid 'entry.level'\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.16299 x86_64)"}}
+17:50:37.295 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@19fc7ed
+17:50:37.296 INFO - Handler thread for session 9d597c338b82a2464b1611cc56a938d0 (chrome): Executing POST on /session/9d597c338b82a2464b1611cc56a938d0/element (handler: ServicedSession)
+17:50:37.298 INFO - To upstream: {"using":"css selector","value":"input[name=inputUsername]"}
+17:50:41.350 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@19fc7ed
+17:50:41.351 INFO - Handler thread for session 9d597c338b82a2464b1611cc56a938d0 (chrome): Executing POST on /session/9d597c338b82a2464b1611cc56a938d0/element (handler: ServicedSession)
+17:50:42.368 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@19fc7ed
+17:50:42.369 INFO - Handler thread for session 9d597c338b82a2464b1611cc56a938d0 (chrome): Executing POST on /session/9d597c338b82a2464b1611cc56a938d0/element (handler: ServicedSession)
+17:50:43.387 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@19fc7ed
+17:50:43.388 INFO - Handler thread for session 9d597c338b82a2464b1611cc56a938d0 (chrome): Executing POST on /session/9d597c338b82a2464b1611cc56a938d0/element (handler: ServicedSession)
+17:50:47.407 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@19fc7ed
+17:50:47.408 INFO - Handler thread for session 9d597c338b82a2464b1611cc56a938d0 (chrome): Executing GET on /session/9d597c338b82a2464b1611cc56a938d0/title (handler: ServicedSession)
+17:50:48.428 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@19fc7ed
+17:50:48.429 INFO - Handler thread for session 9d597c338b82a2464b1611cc56a938d0 (chrome): Executing DELETE on /session/9d597c338b82a2464b1611cc56a938d0 (handler: ServicedSession)
+17:50:49.443 INFO - Removing session org.openqa.selenium.remote.server.ServicedSession@19fc7ed

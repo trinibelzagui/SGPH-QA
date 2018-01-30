@@ -1,0 +1,39 @@
+{
+  "name": "testarmada-boilerplate-nightwatch",
+  "version": "3.0.0",
+  "description": "example project for testarmada tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "DPRO=local ./node_modules/.bin/magellan --local_browsers chrome,firefox,phantomjs",
+    "test:desktop": "DPRO=local ./node_modules/.bin/magellan --local_browsers chrome --test tests/demo-web.js --serial --strategy_bail testarmada-magellan-early-bail-strategy",
+    "test:mobile:ios": "DPRO=local ./node_modules/.bin/magellan --local_browsers appiummweb --test tests/demo-simple.js --serial --sync_browsers safari",
+    "test:mobile:android": "DPRO=local ./node_modules/.bin/magellan --local_browsers appiumandroidmweb --test tests/demo-simple.js --serial",
+    "magellan:setup": "exit 0",
+    "magellan:teardown": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TestArmada/boilerplate-nightwatch.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "appium": "^1.6.3",
+    "chromedriver": "^2.27.2",
+    "dpro": "^1.0.0",
+    "drydock": "^0.4.3",
+    "geckodriver": "^1.4.0",
+    "jimp": "^0.2.27",
+    "nightwatch": "^0.9.11",
+    "selenium-server": "^3.1.0",
+    "testarmada-bloop": "0.0.4",
+    "testarmada-magellan": "^10.1.0",
+    "testarmada-magellan-browserstack-executor": "1.0.0-beta2",
+    "testarmada-magellan-local-executor": "^2.0.0",
+    "testarmada-magellan-nightwatch-plugin": "^7.0.0",
+    "testarmada-magellan-saucelabs-executor": "^4.0.0",
+    "testarmada-nightwatch-extra": "^4.1.0",
+    "testarmada-magellan-early-bail-strategy": "^1.0.0",
+    "yargs": "1.3.2"
+  }
+}
